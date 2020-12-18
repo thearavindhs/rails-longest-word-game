@@ -1,0 +1,27 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+// https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content
+@import "bootstrap/scss/bootstrap";
+
+$gray: #f1f1f1;
+
+body {
+   background: $gray; // Using this variable
+   margin-top: 20px;
+   margin-left: 20px;
+ }
+
+.flex-container {
+  display: flex;
+  background-color: #f1f1f1;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #1e90ff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
